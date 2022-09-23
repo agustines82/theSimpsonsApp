@@ -1,3 +1,9 @@
 .app {
     background-color: rgb(105, 184, 204);
 }
+
+@media all and (max-width: 767px) {
+    .media {
+        width: 250px;
+    }
+}

@@ -8,11 +8,13 @@ function App() {
         <>
             <section className="app">
                 <article className="d-flex flex-column align-items-center">
-                    <aside>
-                        <img src={theSimpsonBanner} alt="banner"></img>
+                    <aside className="mt-3">
+                        <img className="media" src={theSimpsonBanner} alt="banner"></img>
                     </aside>
-                    <aside className="my-5">
-                        <Button variant="warning">Obtener frase</Button>
+                    <aside className="mt-5">
+                        <Button type="button" variant="warning">
+                            Obtener frase
+                        </Button>
                     </aside>
                     <Frases />
                 </article>
