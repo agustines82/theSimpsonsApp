@@ -9,7 +9,7 @@ function App() {
             <section className="app">
                 <article className="d-flex flex-column align-items-center">
                     <aside className="mt-3">
-                        <img className="media" src={theSimpsonBanner} alt="banner"></img>
+                        <img className="mediaApp" src={theSimpsonBanner} alt="banner"></img>
                     </aside>
                     <aside className="mt-5">
                         <Button type="button" variant="warning">

@@ -1,4 +1,4 @@
-import "./Frases.css";
+import "../App.css";
 import React from "react";
 import homero from ".././assets/img/homero.png";
 
@@ -9,7 +9,7 @@ const Frases = () => {
                 <aside className="mediaImg">
                     <img className="imagen" src={homero} alt="homero"></img>
                 </aside>
-                <aside className="mediaFrase">
+                <aside className="mediaFrase container">
                     <h3 className="fw-1 mediaFrase1 ">Homer Simpson</h3>
                     <p className="lead ">Facts are meaningless. You could use facts to prove anything that's even remotely true.</p>
                 </aside>

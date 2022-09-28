@@ -1,9 +1,39 @@
 .app {
     background-color: rgb(105, 184, 204);
 }
+.mediaImg {
+    margin-top: 30px;
+}
+.mediaFrase {
+    margin-top: 30px;
+    margin-right: 80px;
+}
 
 @media all and (max-width: 767px) {
-    .media {
+    .mediaApp {
         width: 250px;
+    }
+    .media {
+        width: 350px;
+    }
+    .imagen {
+        margin-top: 15px;
+        width: 100px;
+    }
+    .mediaImg {
+        margin: 0px;
+        width: 150px;
+    }
+    .mediaFrase {
+        margin-top: 15px;
+        margin: 0px;
+    }
+    .mediaFrase1 {
+        margin-top: 15px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .media {
+        width: 550px;
     }
 }
