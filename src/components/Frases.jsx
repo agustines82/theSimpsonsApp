@@ -1,6 +1,4 @@
 import "../App.css";
-import React from "react";
-import homero from ".././assets/img/homero.png";
 
 const Frases = ({ personaje }) => {
     return (

@@ -5,6 +5,7 @@ import Frases from "./components/Frases";
 import { Button } from "react-bootstrap";
 import { useEffect } from "react";
 import { useState } from "react";
+import Spinner from "./components/Spinner";
 function App() {
     //creamos una variable estate para renderizar la frase de los simpsons
     const [personaje, setPersonaje] = useState({});
@@ -38,11 +39,12 @@ function App() {
                         <img className="mediaApp" src={theSimpsonBanner} alt="banner"></img>
                     </aside>
                     <aside className="mt-5">
-                        <Button type="button" variant="warning">
+                        <Button type="button" variant="warning" onClick={consultarAPI}>
                             Obtener frase
                         </Button>
                     </aside>
-                    <Frases personaje={personaje}/>
+                    <Spinner />
+                    <Frases personaje={personaje} />
                 </article>
             </section>
         </>
