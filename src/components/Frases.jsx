@@ -2,7 +2,7 @@ import "../App.css";
 import React from "react";
 import homero from ".././assets/img/homero.png";
 
-const Frases = () => {
+const Frases = ({ personaje }) => {
     return (
         <>
             <section className="d-flex border bg-light my-5 media">
