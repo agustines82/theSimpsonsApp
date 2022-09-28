@@ -7,11 +7,11 @@ const Frases = ({ personaje }) => {
         <>
             <section className="d-flex border bg-light my-5 media">
                 <aside className="mediaImg">
-                    <img className="imagen" src={homero} alt="homero"></img>
+                    <img className="imagen" src={personaje.image} alt={personaje.character}></img>
                 </aside>
                 <aside className="mediaFrase container">
-                    <h3 className="fw-1 mediaFrase1 ">Homer Simpson</h3>
-                    <p className="lead ">Facts are meaningless. You could use facts to prove anything that's even remotely true.</p>
+                    <h3 className="fw-1 mediaFrase1 ">{personaje.character}</h3>
+                    <p className="lead ">{personaje.quote}</p>
                 </aside>
             </section>
         </>
