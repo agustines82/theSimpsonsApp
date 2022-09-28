@@ -10,6 +10,14 @@ En caso de querer clonar el proyecto acceda al repositorio publico del mismo en 
 
 [Git](https://github.com/agustines82/theSimpsonsApp)
 
+comandos necesarios:
+npm install
+
+## Netlify
+
+Prueba el proyecto online
+[Netlify](https://dancing-souffle-cd9026.netlify.app)
+
 ## autor
 
 -   Agustin Sampayo
